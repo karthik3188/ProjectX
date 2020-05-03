@@ -1,0 +1,21 @@
+{
+    "welcome": "வரவேற்பு",
+    "userName": "உங்கள் பெயரை உள்ளிடவும்",
+    "userPhoneNumber": "உங்கள் தொலைபேசி எண்ணை உள்ளிடவும்",
+    "sendOTP": "OTP ஐ அனுப்பவும்",
+    "phone_verification": "தொலைபேசி சரிபார்ப்பு",
+    "we_send_otp_verification_code": "OTP சரிபார்ப்புக் குறியீட்டை அனுப்பியுள்ளோம்",
+    "on_your_given_number": "நீங்கள் கொடுத்த எண்ணில்.",
+    "enter_otp": "OTP ஐ உள்ளிடவும்",
+    "submit": "சமர்ப்பிக்கவும்",
+    "resend": "மீண்டும் அனுப்பு",
+    "Please_choose_your_need":"உங்கள் தேவையைத் தேர்வுசெய்க ...",
+    "Do_you_want_to_advertise_your": "நீங்கள் விளம்பரம் செய்ய விரும்புகிறீர்களா?:",
+    "profession": "தொழில்?",
+    "talent": "திறமை?",
+    "business?": "வணிகம்?",
+    "Are_you_searching_for": "நீங்கள் தேடுகிறீர்களா?:",
+    "self_employee":"சுய ஊழியர்?",
+    "or":"அல்லது",
+    "for_50rs_per_month":"ஒவ்வொரு மாதமும் ரூ .50 க்கு"
+}

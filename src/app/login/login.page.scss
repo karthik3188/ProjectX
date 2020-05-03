@@ -1,0 +1,105 @@
+.banner {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 80px;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: calc(100% - 97px);
+		background: url('../../assets/images/bg.png');
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.logo_box {
+		position: relative;
+		z-index: 99;
+		width: 125px;
+		margin: 130px auto 77px auto;
+	}
+
+	.welcome_text {
+		position: relative;
+		z-index: 99;
+		color: var(--white);
+		padding: 0 20px;
+		margin-bottom: 60px;
+
+		h2 {
+			margin: 0;
+			font-size: 1.35rem;
+			font-weight: 400;
+			margin-bottom: 13px;
+		}
+
+		h3 {
+			margin: 0;
+			font-size: 1rem;
+			font-weight: 400;
+		}
+	}
+
+	.form ion-item {
+		background: var(--info_field_bg);
+		padding: 2px 20px;
+	}
+
+	.button.btn.button-block {
+		margin-top: 20px !important;
+	}
+}
+
+.quick_signin {
+	width: calc(100% - 40px);
+	margin: 0 auto;
+
+	h4 {
+		margin: 0;
+		font-size: 1rem;
+		font-weight: 500;
+		margin-bottom: 25px;
+	}
+
+	ion-row {
+		margin: 0 -10px;
+
+		ion-col {
+			padding: 0 10px !important;
+		}
+	}
+
+	.button.btn {
+		font-size: 1rem !important;
+
+		img {
+			width: 18px;
+			position: relative;
+			left: -11px;
+		}
+
+
+		&.facebook {
+			--background: #3C5A9A !important;
+		}
+
+		&.gmail {
+			--background: #fff !important;
+			color: #000 !important;
+			font-weight: 500;
+		}
+
+	}	
+}
+.select-list{
+	background-color: #fff;
+	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	width: calc(50% - 0px);
+}

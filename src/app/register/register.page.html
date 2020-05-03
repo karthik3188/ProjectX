@@ -1,0 +1,42 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+      <ion-back-button text="" icon="chevron-back-outline"  [routerLink]="['/verification']"></ion-back-button>
+		</ion-buttons>
+		<ion-title>{{ 'register_now' | translate}}</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen>
+
+  <ion-select [interfaceOptions]="customPopoverOptions" class="select-list" interface="popover" placeholder="Select One" [(ngModel)]="selectedLanguage" (ionChange)="languageChanged()">
+    <ion-select-option value="en">English</ion-select-option>
+    <ion-select-option value="ta">தமிழ்(Tamil)</ion-select-option>
+    <ion-select-option value="hi">हिन्दी(Hindi)</ion-select-option>
+    <ion-select-option value="te">తెలుగు(Telugu)</ion-select-option>
+    <ion-select-option value="ma">മലയാളം(Malayalam)</ion-select-option>
+    <ion-select-option value="ka">ಕನ್ನಡ(Kannada)</ion-select-option>
+  </ion-select>
+
+	<div class="form">
+  
+    <p class="ion-text-center">{{'welcome' |  translate }}</p>
+    <p class="ion-text-center">{{ userName }}</p>
+    <p class="ion-text-center">{{'Please_choose_your_need' | translate}}</p>
+    <br>
+    <br>
+    <br>
+    <br>
+		<ion-list lines="none">
+      
+      <ion-button size="large"  style="height:200px;" shape="full" class="btn" (click)="goToSelfRegisterPage()">{{'Do_you_want_to_advertise_your' | translate}}<br><br>{{'profession' | translate}}<br>{{'or' | translate }}<br>{{'talent' | translate}}<br>{{'or' | translate }}<br>{{'business?' | translate}}<br><br>{{'for_50rs_per_month' | translate}}</ion-button>
+      <br>
+      <br>
+      <br>
+   
+      <ion-button size="large" style="height:200px;" shape="full" class="btn" (click)="goToSearchPage()">{{'Are_you_searching_for' | translate}}<br><br>{{'self_employee' | translate}}<br>{{'or' | translate }}<br>{{'business?' | translate}}</ion-button>
+   
+		</ion-list>
+	</div>
+ 
+</ion-content>

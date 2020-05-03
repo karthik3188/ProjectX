@@ -1,0 +1,25 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-back-button text="" icon="chevron-back-outline"></ion-back-button>
+		</ion-buttons>
+		<ion-title>{{'phone_verification' | translate}}</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content>
+	<div id="sign-in-button"></div>
+	<div class="form">
+		<p class="ion-text-center">{{'we_send_otp_verification_code' | translate}} <br>{{'on_your_given_number' | translate}}</p>
+
+		<ion-list lines="none">
+			<ion-item lines="none"> 
+				<ion-input class="ion-text-center" type="text"  placeholder="{{'enter_otp' | translate}}"  [(ngModel)]="enteredOTP"></ion-input>
+			</ion-item>
+		 
+			<ion-button size="large" shape="block" class="btn" (click)="submit()" [disabled]="!enteredOTP">{{'submit' | translate}}</ion-button>
+		</ion-list>
+		<h4 class="d-flex"><countdown #countdown style="color:#3b5350;" [config]="{leftTime: 30, format:'mm:ss'}"></countdown><span class="end"><a (click)="validateOTP()">{{'resend' | translate}}</a></span></h4>
+	</div>
+</ion-content>
+

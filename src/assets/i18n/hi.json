@@ -1,0 +1,21 @@
+{
+    "welcome": "स्वागत",
+    "userName": "अपना नाम दर्ज करें",
+    "userPhoneNumber": "अपना दूरभाष क्रमांक दर्ज करें",
+    "sendOTP": "OTP भेजें",
+    "phone_verification": "फ़ोन सत्यापन",
+    "we_send_otp_verification_code": "हमने OTP सत्यापन कोड भेजा है",
+    "on_your_given_number": "आपके दिए गए नंबर पर।",
+    "enter_otp": "OTP दर्ज करें",
+    "submit": "प्रस्तुत",
+    "resend": "फिर से भेजो",
+    "Please_choose_your_need":"कृपया अपनी आवश्यकता चुनें ...",
+    "Do_you_want_to_advertise_your": "क्या आप विज्ञापन देना चाहते हैं:",
+    "profession": "पेशे?",
+    "talent": "प्रतिभा?",
+    "business?": "व्यापार?",
+    "Are_you_searching_for": "क्या आप खोज रहे हैं?:",
+    "self_employee":"स्वयं कर्मचारी?",
+    "or":"या",
+    "for_50rs_per_month":"50 रुपये प्रति माह के लिए"
+}

@@ -1,0 +1,21 @@
+{
+    "welcome": "ಸ್ವಾಗತ",
+    "userName": "ನಿಮ್ಮ ಹೆಸರನ್ನು ನಮೂದಿಸಿ",
+    "userPhoneNumber": "ನಿಮ್ಮ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ",
+    "sendOTP": "OTP ಕಳುಹಿಸು",
+    "phone_verification": "ಫೋನ್ ಪರಿಶೀಲನೆ",
+    "we_send_otp_verification_code": "ನಾವು ಒಟಿಪಿ ಪರಿಶೀಲನಾ ಕೋಡ್ ಕಳುಹಿಸಿದ್ದೇವೆ",
+    "on_your_given_number": "ನಿಮ್ಮ ನಿರ್ದಿಷ್ಟ ಸಂಖ್ಯೆಯಲ್ಲಿ.",
+    "enter_otp": "ಒಟಿಪಿ ನಮೂದಿಸಿ",
+    "submit": "ಸಲ್ಲಿಸು",
+    "resend": "ಮತೊಮ್ಮೆ ಕಳುಹಿಸಿ",
+    "Please_choose_your_need":"ದಯವಿಟ್ಟು ನಿಮ್ಮ ಅಗತ್ಯವನ್ನು ಆರಿಸಿ ...",
+    "Do_you_want_to_advertise_your": "ನೀವು ಜಾಹೀರಾತು ನೀಡಲು ಬಯಸುವಿರಾ:",
+    "profession": "ವೃತ್ತಿ?",
+    "talent": "ಪ್ರತಿಭೆ?",
+    "business?": "ವ್ಯವಹಾರ?",
+    "Are_you_searching_for": "ನೀವು ಹುಡುಕುತ್ತಿದ್ದೀರಾ:",
+    "self_employee":"ಸ್ವಯಂ ಉದ್ಯೋಗಿ?",
+    "or":"ಅಥವಾ",
+    "for_50rs_per_month":"ರೂ. ಪ್ರತಿ ತಿಂಗಳು 50 ರೂ"
+}

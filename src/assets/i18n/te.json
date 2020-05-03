@@ -1,0 +1,21 @@
+{
+    "welcome": "స్వాగతం",
+    "userName": "మీ పేరు రాయుము, మీ పేరు రాయండి",
+    "userPhoneNumber": "మీ ఫోన్ నెంబర్ ను ఎంటర్ చేయండి",
+    "sendOTP": "OTP పంపండి",
+    "phone_verification": "ఫోన్ ధృవీకరణ",
+    "we_send_otp_verification_code": "మేము OTP ధృవీకరణ కోడ్‌ను పంపాము",
+    "on_your_given_number": "మీరు ఇచ్చిన నంబర్‌లో.",
+    "enter_otp": "OTP ని నమోదు చేయండి",
+    "submit": "సమర్పించండి",
+    "resend": "మళ్ళీ పంపు",
+    "Please_choose_your_need":"దయచేసి మీ అవసరాన్ని ఎంచుకోండి ...",
+    "Do_you_want_to_advertise_your": "మీరు ప్రకటన చేయాలనుకుంటున్నారా:",
+    "profession": "వృత్తి?",
+    "talent": "టాలెంట్?",
+    "business?": "వ్యాపారం?",
+    "Are_you_searching_for": "మీరు వెతుకుతున్నారా:",
+    "self_employee":"స్వయం ఉద్యోగి?",
+    "or":"లేదా",
+    "for_50rs_per_month":"ప్రతి నెల 50 రూపాయలకు"
+}
